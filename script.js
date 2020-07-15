@@ -67,7 +67,7 @@ var helpers = {
     this.updateTotal();
   },
   updateTotal: function () {
-    this.setHtml("totalPrice", cart.total + "₹");
+    this.setHtml("totalPrice", cart.total + "ksh");
   },
 };
 

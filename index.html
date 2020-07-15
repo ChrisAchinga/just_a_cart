@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>JS Shopping Cart | Webdevtrick.com</title>
+  <title>JS Shopping Cart</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/5.0.2/css/foundation.css'>
 <link rel="stylesheet" href="styles.css">
@@ -14,7 +14,7 @@
     <nav class="top-bar" data-topbar>
         <ul class="title-area">
             <li class="name">
-                <h1><a href="#">JS Shopping Cart</a></h1>
+                <h1><a href="#">Just a shopping Cart</a></h1>
             </li>
         </ul>
     </nav>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div id="cartItems">Loading cart...</div>
-            Total price: <strong id="totalPrice">0 $</strong>
+            Total price: <strong id="totalPrice">0 $KSH</strong>
         </div>
       
     </div>
@@ -62,7 +62,7 @@
   <% _.each(items, function (item) { %> <div class = "panel"> <h3> <%= item.name %> </h3>  <span class="label">
 <%= item.count %> piece<% if(item.count > 1)
 {%>s
-<%}%> for <%= item.total %>₹</span > </div>
+<%}%> for <%= item.total %>Ksh.</span > </div>
 <% }); %>
 </script>
 
